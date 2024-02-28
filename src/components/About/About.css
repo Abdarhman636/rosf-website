@@ -1,0 +1,10 @@
+@import url('../../index.css');
+
+.aboutImage, .aboutText {
+     flex: 1;
+}
+
+/* .about {
+     padding-top: 100px;
+     padding-bottom: 20px;
+} */

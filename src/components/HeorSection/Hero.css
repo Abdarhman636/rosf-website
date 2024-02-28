@@ -1,0 +1,21 @@
+@import url('../../index.css');
+
+.hero-text, .hero-image {
+     flex: 1;
+}
+
+.hero-image img {
+     height: 465px;
+}
+
+.hero-text p {
+     width: 50%;
+}
+
+
+@media screen and (max-width: 1000px) {
+     .hero-text p {
+          width: 100%;
+     }
+     
+}

@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/public/assets/images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+:root {
+  /* --main-color: #16f; */
+  --second-color: #0BA3CC;
+  --gray-color: #ECECEC;
+}
+
+li {
+  list-style: none;
+}
+
+.secondColor {
+  color: var(--second-color);
+}
+
+.gray {
+  color: #c9c9c9;
+}
+
+.myBtn {
+  padding: 5px 15px;
+  background-color: #0BA3CC;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.secondBTN {
+  border: 1px solid var(--gray-color);
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+.margin {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
