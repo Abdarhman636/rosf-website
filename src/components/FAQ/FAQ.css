@@ -1,0 +1,25 @@
+@import url('../../index.css');
+
+button.accordion-button {
+     background-color: transparent !important;
+     color: white;
+ }
+
+ .accordion-button:not(.collapsed) {
+     color: white;
+ }
+
+ .accordion-item {
+     background-color: transparent;
+     color: #7b7b7b;
+     border: none;
+     border-bottom: solid 0.5px #7b7b7b;
+     padding: 15px 0;
+ }
+
+ .accordion-button:focus {
+     z-index: 3;
+     border-color: transparent;
+     outline: 0;
+      box-shadow: none; 
+ }

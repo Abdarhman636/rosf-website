@@ -1,20 +1,21 @@
 import Header from './components/Header/Header'
-import Hero from './components/HeorSection/Hero'
-import Clients from './components/Clients/Clients';
-import About from './components/About/About';
-import Features from './components/Features/Features';
-import CallToAction from './components/CallToAction/CallToAction.js';
 import Footer from './components/Footer/Footer.js';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home'
+import ContactUs from './pages/ContactUs/ContactUs.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
-      <Clients />
-      <About />
-      <Features />
-      <CallToAction />
+
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/contact-us' element={<ContactUs />} />
+        </Routes>
+      </Router>
+
       <Footer />
     </div>
   );

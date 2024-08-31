@@ -1,0 +1,26 @@
+.flex-div form {
+     flex: 1;
+}
+
+.flex-div .contactDetails {
+     flex: 1;
+}
+
+.form-control {
+     background-color: transparent !important;
+     border: none !important;
+     border-bottom: 1px solid gray !important;
+     border-radius: 0 !important;
+ }
+
+ .form-control::placeholder {
+     color: gray;
+ }
+
+ form button {
+     padding: 5px 15px !important;
+     background-color: #0BA3CC !important;
+     color: white;
+     border: none !important;
+     border-radius: 5px !important;
+ }

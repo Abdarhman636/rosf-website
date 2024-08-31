@@ -1,1 +1,5 @@
 @import url('../../index.css');
+
+.d-flex.container.gap-5.margin.flex-column.flex-md-row.text-center div {
+     flex: 1;
+}
