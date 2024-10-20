@@ -18,11 +18,11 @@ const Footer = () => {
                          </ul>
                     </div>
                     <div className="Terms text-left">
-                         <h5>Terms</h5>
+                         <h5>Pages</h5>
                          <ul className='p-0 m-0'>
-                              <li>Services</li>
-                              <li>Services</li>
-                              <li>Services</li>
+                              <li><a href="/termsconditions" className='gray'>Terms and Condetions</a></li>
+                              <li><a href="/privacypolicy" className='gray'>Privacy Policy</a></li>
+                              <li><a href="/contact-us" className='gray'>Contant Us</a></li>
                          </ul>
                     </div>
                     <form action="" className='d-none d-sm-inline'>
@@ -36,9 +36,7 @@ const Footer = () => {
                     <div className='d-flex justify-content-sm-between justify-content-center container pb-5 pt-4 text-light'>
                          <div className='d-none d-sm-inline'>
                               <small className='px-2 text-decoration-underline'>© 2023 Relume. All rights reserved.</small>
-                              <small className='px-2 text-decoration-underline'>Privacy Policy</small>
-                              <small className='px-2 text-decoration-underline'>Terms of Service</small>
-                              <small className='px-2 text-decoration-underline'>Cookies Settings</small>
+                              <small className='px-2 text-decoration-underline'><a href="/PrivacyPolicy" className='gray'>Privacy Policy</a></small>
                          </div>
                          <div className='text-center'>
                               <FaLinkedin fontSize={20} className='mx-2' />

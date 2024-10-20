@@ -9,7 +9,12 @@ body {
 :root {
   /* --main-color: #16f; */
   --second-color: #0BA3CC;
+  --thirdColor: #088FF0;
   --gray-color: #ECECEC;
+}
+
+ul {
+  padding: 0 !important;
 }
 
 li {
@@ -19,6 +24,11 @@ li {
 .secondColor {
   color: var(--second-color);
 }
+
+.thirdColor {
+  color: #088FF0;
+}
+
 
 .gray {
   color: #c9c9c9;
